@@ -91,7 +91,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,21 +99,19 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* deleted the benefit-brand h3, benefit -cost h3 and benefit-lead h3 classesn and consolidated them into one benefit-lead h3 class */
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .benefit-lead img {
@@ -122,17 +120,8 @@ p {
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*  consolidated the benefit-lead img  selector */
+   
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -161,34 +150,20 @@ p {
     color: #ffffff;
 }
 
+
+/* consolidated the classes into one selector */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* start footer Styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -199,4 +174,3 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-/* end footer Styling */
